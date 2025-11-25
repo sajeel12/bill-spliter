@@ -101,7 +101,7 @@ function App() {
                     key={i}
                     className="bg-green-50 text-green-800 p-3 rounded font-mono"
                   >
-                    {t.from} → {t.to}: ₹{t.amount.toFixed(2)}
+                    {t.from} → {t.to}: {t.amount.toFixed(2)} pkr
                   </li>
                 ))}
               </ul>
